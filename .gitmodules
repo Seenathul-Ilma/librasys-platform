@@ -1,9 +1,9 @@
 [submodule "config-server"]
 	path = config-server
 	url = https://github.com/Seenathul-Ilma/librasys-config-server.git
-[submodule "eureka-server"]
-	path = eureka-server
-	url = https://github.com/Seenathul-Ilma/librasys-eureka-server.git
+[submodule "service-registry"]
+	path = service-registry
+	url = https://github.com/Seenathul-Ilma/librasys-service-registry.git
 [submodule "api-gateway"]
 	path = api-gateway
 	url = https://github.com/Seenathul-Ilma/librasys-api-gateway.git
