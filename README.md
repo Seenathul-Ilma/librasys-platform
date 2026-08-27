@@ -15,9 +15,9 @@ This super-repo bundles the three Spring Cloud platform components that every bu
 
 | Submodule | Purpose | Port |
 |---|---|---|
-| [`config-server`](https://github.com/Seenathul-Ilma/config-server) | Centralized configuration for all services | `8888` |
-| [`service-registry`](https://github.com/Seenathul-Ilma/service-registry) | Service discovery (Netflix Eureka) | `8761` |
-| [`api-gateway`](https://github.com/Seenathul-Ilma/api-gateway) | Single entry point / dynamic routing | `8080` |
+| [`config-server`](https://github.com/Seenathul-Ilma/librasys-config-server) | Centralized configuration for all services | `8888` |
+| [`service-registry`](https://github.com/Seenathul-Ilma/librasys-service-registry) | Service discovery (Netflix Eureka) | `8761` |
+| [`api-gateway`](https://github.com/Seenathul-Ilma/librasys-api-gateway) | Single entry point / dynamic routing | `8080` |
 
 The business logic (users, books, loans) lives in the sibling repo **[`librasys-services`](https://github.com/Seenathul-Ilma/librasys-services)**, and the client UI lives in **[`librasys-frontend`](https://github.com/Seenathul-Ilma/librasys-frontend)**.
 
